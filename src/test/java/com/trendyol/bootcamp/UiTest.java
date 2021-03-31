@@ -28,13 +28,14 @@ public class UiTest extends BaseTest {
         String productDetailAmount = productList.getProductAmount();
         BasketPage basketPage = productList.clickBasket();
 
+        basketPage.clickBasketButton();
+
         SignInTest signInTest = new SignInTest();
         signInTest.shouldSignUp();
 
         // Sepete atılan ürünün adıni kontrol etsin
         String productTitleInBasket = basketPage.getProductBasket();
         Assert.assertTrue(productTitleInBasket.contains(productTitle));
-
         Assert.assertEquals(productDetailAmount, productList.getProductAmount());
         Assert.assertEquals("1", productList.getproductSizeInBasket());
 
