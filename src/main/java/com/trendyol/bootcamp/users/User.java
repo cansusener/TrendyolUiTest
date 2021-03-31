@@ -3,12 +3,8 @@ package com.trendyol.bootcamp.users;
 public class User {
 
     private String email;
-    private String password;
+    private String password="cs123456";
 
-    public User(String email, String password) {
-        this.email = email;
-        this.password = password;
-    }
 
     public String getEmail() {
         return email;

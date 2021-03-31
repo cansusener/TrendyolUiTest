@@ -3,7 +3,7 @@ package com.trendyol.bootcamp.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class SearchResultPage extends BasePage {
+public class SearchResultPage extends BaseMethods {
 
     private By resultTextBy = By.cssSelector(".dscrptn > h1");
 

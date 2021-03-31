@@ -1,5 +1,5 @@
 package com.trendyol.bootcamp.users;
-
+/*
 public class UserPool {
 
     public static User getUser1() {
@@ -14,3 +14,4 @@ public class UserPool {
         return new User("uatbuyer25@mailinator.com", "1234qwe");
     }
 }
+*/

@@ -29,8 +29,9 @@ public class BaseTest {
                 .click();
     }
 
-    @AfterMethod
+  /* @AfterMethod
     public void tearDown() {
         webDriver.quit();
     }
+    */
 }
